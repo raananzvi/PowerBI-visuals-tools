@@ -2,10 +2,11 @@
     "templates": {
         "visual": "templates/visual",
         "pbiviz": "templates/pbiviz.json.template",
-        "plugin": "templates/plugin.js.template"
+        "plugin": "templates/plugin.ts.template"
     },
     "build": {
         "dropFolder": ".bin",
+        "tempFolder": ".tmp",
         "js": "visual.js",
         "css": "visual.css"
     },
